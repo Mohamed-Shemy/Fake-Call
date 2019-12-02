@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:top="75dp"
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp">
+        <!--// add android:right="5dp" and android:left="5dp" for border on left and right-->
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="5dp"
+                android:left="5dp"
+                android:right="5dp"
+                android:top="5dp" />
+            <solid android:color="@color/custome_blue" />
+        </shape>
+    </item>
+</layer-list>

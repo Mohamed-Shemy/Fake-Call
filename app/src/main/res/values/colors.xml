@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#282828</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_background_pressed_true">#11ADCC</color>
+    <color name="button_background_pressed_false">#119AFF</color>
+    <color name="custome_blue">#119aff</color>
+    <color name="custome_green">#11FFFF</color>
+    <color name="pink">#FC1778</color>
+    <color name="colorRow">#222222</color>
+    <color name="foreground_material_light">#ffffff</color>
+</resources>

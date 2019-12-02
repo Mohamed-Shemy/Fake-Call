@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/answer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="40dp"
+
+    android:weightSum="1">
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_close_black_96dp"
+        android:tint="@android:color/white"
+        android:scaleType="centerInside"
+        android:background="@drawable/round_button_red"
+        android:layout_marginRight="100dp"
+        android:onClick="Cancel"
+        android:layout_weight="0.5"/>
+
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_call_end_black_24dp"
+        android:tint="@android:color/white"
+        android:scaleType="centerInside"
+        android:background="@drawable/round_button_answer"
+        android:onClick="Answer"
+        android:layout_weight="0.5"/>
+</LinearLayout>
